@@ -1,3 +1,3 @@
 <?php
 
-$hola=  array
+$hola=  array[1, 2, 3];

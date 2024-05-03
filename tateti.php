@@ -2,7 +2,13 @@
 
 //Santi (parte de intercalasion entre jugadores).
 $jugadores = array('Jugador 1'=> 1, 'Jugador 2' => 2);
-
+$Marcas = array('X'=> 1, 'O' => 2);
+if ($_POST['Envio'] == 1){
+    $jugador_marcas = $Marcas['X'];
+}
+if ($_POST['Envio'] == 2){
+    $jugador_marcas = $Marcas['O'];
+}
 
 //German Tablero:
 <?php
@@ -54,21 +60,11 @@ foreach (range('A', 'C') as $letra) {
     }
     ?>
 </table>
-<?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if (isset($_POST['posicion_jugador1'])) {
-        $posicion_jugador1 = $_POST['posicion_jugador1'];
-        $jugador = '1';
-        echo "Jugador 1 se posiciono en: " . $jugador. "\n";
-    }
-    if (isset($_POST['posicion_jugador2'])) {
-        $posicion_jugador2 = $_POST['posicion_jugador2'];
-        $jugador2 = '2';
-        echo "Jugador 2 se posiciono en: " . $jugador2 . "\n";
-    }
-}
-?>
 
 </body>
 </html>
- 
+
+
+
+
+?>

@@ -1,0 +1,22 @@
+1_Leer el tablero. 
+bucle:
+    1_ Intercalado entre jugador 1 y jugador 2.
+    2_ Jugador (1) seleccione donde se va a posicionar, POST.
+    3_ Jugador (2) seleccione donde se va a posicionar, POST.
+4_Verificar que todas las posiciones fueron ocupadas si no se cumple la condicion para ganar.
+5_Verifica quien gano.
+6_
+
+German:
+1_Leer el tablero. 
+4_Verificar que todas las posiciones fueron ocupadas si no se cumple la condicion para ganar.
+5_Verifica quien gano.
+
+Marquitos:
+bucle: 
+    2_ Jugador (1) seleccione donde se va a posicionar, POST.
+    3_ Jugador (2) seleccione donde se va a posicionar, POST.
+
+Santiago:
+bucle:
+    1_ Intercalado entre jugador 1 y jugador 2.
